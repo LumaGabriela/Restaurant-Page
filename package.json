@@ -2,27 +2,16 @@
   "name": "restaurant-page",
   "version": "1.0.0",
   "description": "",
-  "private": true,
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1", 
-    "build":"webpack"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --mode=production",
+    "watch": "webpack --progress --watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LumaGabriela/Restaurant-Page.git"
-  },
-  "keywords": [],
-  "author": "",
+  "author": "LumaGabriela",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LumaGabriela/Restaurant-Page/issues"
-  },
-  "homepage": "https://github.com/LumaGabriela/Restaurant-Page#readme",
   "devDependencies": {
-    "webpack": "^5.52.1",
-    "webpack-cli": "^4.8.0"
-  },
-  "dependencies": {
-    "lodash": "^4.17.21"
+    "webpack": "^5.15.0",
+    "webpack-cli": "^4.3.1"
   }
 }

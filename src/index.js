@@ -1,12 +1,5 @@
-import _ from 'lodash';
-
-function component(){
-    const element = document.createElement('div');
-
-    //Lodash, now imported by this script
-    element.innerHTML = _.join(['Hello', 'webpack'], '');
-
-    return element;
-}
-
-document.body.appendChild(component());
+import {pageLoad} from './pageload'
+import {menu} from './menu'
+import {contact} from './contact'
+pageLoad()
+menu()
