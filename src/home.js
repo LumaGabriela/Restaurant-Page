@@ -2,6 +2,8 @@ import { cleanAll } from "."
 export function home(){
     cleanAll()
     const content = document.querySelector('#content')
+    content.classList.remove('grid')
+    //Add elements
     const title = document.createElement('h1')
     title.innerHTML = `Plant Based <i class="fas fa-seedling"></i>`
     const desc = []

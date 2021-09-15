@@ -2,6 +2,7 @@ import { cleanAll } from "."
 export function menu(){
     cleanAll()
     const content = document.querySelector('#content')
+    content.classList.add('grid')
     const h1 = document.createElement('h1')
     // Create elements
     const dish = []
@@ -36,7 +37,7 @@ export function menu(){
     </figcaption>
     </figure>`
     dish[2].innerHTML = `<figure>
-    <img class="img" src="./imgs/cake.png" alt='chocolate-cake'>
+    <img class="img" src="./imgs/cheesecake.png" alt='chocolate-cake'>
     <figcaption>
       Chocolate cake
         </figcaption>
@@ -73,7 +74,7 @@ export function menu(){
     </figure>`
     //Append elements
     h1.innerHTML = 'Dishes'
-    content.appendChild(h1)
+    //content.appendChild(h1)
     content.appendChild(dish[0])
     content.appendChild(dish[1])
     content.appendChild(dish[2])
