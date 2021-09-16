@@ -9,8 +9,8 @@ export function home(){
     const desc = []
     desc[0] = document.createElement('p')
     desc[1] = document.createElement('p')
-    desc[0].innerHTML = 'We provide different food flavors without animal cruelty and totally free from diary, honey, meat or any animal product!'
-    desc[1].innerHTML = 'From brazilian to arab, we can make you feel  anywhere on the planet!'
+    desc[0].innerHTML = 'We provide many food flavors without animal cruelty and totally free from diary, honey, meat or any animal product!'
+    desc[1].innerHTML = 'From brazilian to arabic, we can make you feel  anywhere in the world!'
     content.appendChild(title)
     content.appendChild(desc[0])
     content.appendChild(desc[1])

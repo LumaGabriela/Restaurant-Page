@@ -13,7 +13,6 @@ export function menu(){
     dish[4] = document.createElement('div')
     dish[5] = document.createElement('div')
     dish[6] = document.createElement('div')
-    dish[7] = document.createElement('div')
     //Add class
     dish[0].setAttribute('class', 'dishes')
     dish[1].setAttribute('class', 'dishes')
@@ -22,7 +21,6 @@ export function menu(){
     dish[4].setAttribute('class', 'dishes')
     dish[5].setAttribute('class', 'dishes')
     dish[6].setAttribute('class', 'dishes')
-    dish[7].setAttribute('class', 'dishes')
     // Add html elements
     dish[0].innerHTML = `<figure>
     <img class="img" src="./imgs/shushi.png" alt='avocado-sushi'>
@@ -31,13 +29,13 @@ export function menu(){
     </figcaption>
     </figure>`
     dish[1].innerHTML = `<figure>
-    <img class="img" src="./imgs/cake.png" alt='-strawberry-cheesecake'>
+    <img class="img" src="./imgs/cheesecake.png" alt='-strawberry-cheesecake'>
     <figcaption>
       Strawberry cheesecake
     </figcaption>
     </figure>`
     dish[2].innerHTML = `<figure>
-    <img class="img" src="./imgs/cheesecake.png" alt='chocolate-cake'>
+    <img class="img" src="./imgs/cake.png" alt='chocolate-cake'>
     <figcaption>
       Chocolate cake
         </figcaption>
@@ -55,18 +53,12 @@ export function menu(){
     </figcaption>
     </figure>`
     dish[5].innerHTML = `<figure>
-     <img class="img" src="./imgs/lasanha.png" alt='lasagna'>
-    <figcaption>
-    Lasagna
-    </figcaption>
-    </figure>`
-    dish[6].innerHTML = `<figure>
     <img class="img" src="./imgs/lasanha.png" alt='lasagna'>
     <figcaption>
         Lasagna
     </figcaption>
     </figure>`
-    dish[7].innerHTML = `<figure>
+    dish[6].innerHTML = `<figure>
     <img class="img" src="./imgs/cream.png" alt='cream'>
     <figcaption>
         Cream
@@ -82,7 +74,7 @@ export function menu(){
     content.appendChild(dish[4]) 
     content.appendChild(dish[5])   
     content.appendChild(dish[6])   
-    content.appendChild(dish[7])      
+       
     
     //Add active class
     const links = document.querySelectorAll('.nav-link')

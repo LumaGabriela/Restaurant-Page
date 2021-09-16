@@ -42,4 +42,4 @@ export function cleanAll(){
 }
 
 pageLoad()
-menu()
+
